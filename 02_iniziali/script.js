@@ -10,9 +10,9 @@ function primaLettera(nomi) {
 
     for (let i = 0; i < nomi.length; i++) {
         const iniziale = nomi[i][0]; 
-        containerIniziali.push(iniziale)
+        containerIniziali.push(iniziale);
     }
-    return containerIniziali
+    return containerIniziali;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
